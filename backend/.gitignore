@@ -1,0 +1,51 @@
+# Backend .gitignore for Spring Boot project
+
+# Build outputs
+target/
+build/
+
+# IDE directories
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Maven
+*.jar
+*.war
+*.ear
+*.class
+.mvn/
+
+# Gradle (if used)
+gradle/
+*.gradle
+build/
+
+# Log files
+logs/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+*.html
+*Test.java
+*Tests.java
+
+# Temporary files
+*.tmp
+*.temp
+.cache/

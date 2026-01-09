@@ -1,0 +1,44 @@
+# Project root .gitignore
+
+# IDE directories
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Log files
+logs/
+*.log
+
+# Build outputs
+target/
+dist/
+dist-ssr/
+*.local
+
+# Package manager directories
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Trae IDE files
+.trae/
+
+# Documentation files (if needed)
+*.md
+!README.md
